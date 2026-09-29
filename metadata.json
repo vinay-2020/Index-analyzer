@@ -1,0 +1,8 @@
+{
+  "name": "Quant Index Analyzer",
+  "description": "Historical CAGR research, return consistency analysis, and institutional market breadth screening (MACD, 200 EMA, RSI) across 40+ Indian market indices for long-term ETF benchmark evaluation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

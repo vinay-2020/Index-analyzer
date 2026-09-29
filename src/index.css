@@ -1,0 +1,224 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Smooth theme transitions */
+html, body {
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+/* ==========================================================================
+   DARK THEME (Charcoal / Slate Modern)
+   ========================================================================== */
+.dark body,
+.dark #root {
+  background-color: #090e17;
+  color: #f1f5f9;
+}
+
+.dark #main-header {
+  background-color: #0d1424 !important;
+  border-color: #1a2336 !important;
+}
+
+.dark .bg-white {
+  background-color: #111a2e !important;
+}
+
+.dark .bg-slate-50 {
+  background-color: #0b1120 !important;
+}
+
+.dark .bg-slate-100 {
+  background-color: #162035 !important;
+}
+
+.dark .bg-slate-100\/70 {
+  background-color: rgba(22, 32, 53, 0.7) !important;
+}
+
+.dark .bg-slate-200 {
+  background-color: #1f2d48 !important;
+}
+
+/* Borders */
+.dark .border-slate-200,
+.dark .border-slate-200\/80,
+.dark .border-slate-100,
+.dark .border-slate-300 {
+  border-color: #1e2c45 !important;
+}
+
+.dark .divide-slate-100 > :not([hidden]) ~ :not([hidden]),
+.dark .divide-slate-200 > :not([hidden]) ~ :not([hidden]) {
+  border-color: #1e2c45 !important;
+}
+
+/* Text Colors */
+.dark .text-slate-900 {
+  color: #f8fafc !important;
+}
+
+.dark .text-slate-800 {
+  color: #f1f5f9 !important;
+}
+
+.dark .text-slate-700 {
+  color: #cbd5e1 !important;
+}
+
+.dark .text-slate-600 {
+  color: #94a3b8 !important;
+}
+
+.dark .text-slate-500 {
+  color: #94a3b8 !important;
+}
+
+.dark .text-slate-400 {
+  color: #64748b !important;
+}
+
+/* Form Controls */
+.dark input[type="text"],
+.dark input[type="number"],
+.dark input[type="search"],
+.dark select,
+.dark textarea {
+  background-color: #0d1527 !important;
+  color: #f8fafc !important;
+  border-color: #223250 !important;
+}
+
+.dark input::placeholder {
+  color: #64748b !important;
+}
+
+/* Table Hovers */
+.dark .hover\:bg-slate-50:hover,
+.dark .hover\:bg-slate-50\/80:hover {
+  background-color: rgba(30, 44, 70, 0.45) !important;
+}
+
+.dark .hover\:bg-slate-100:hover {
+  background-color: #1a273f !important;
+}
+
+/* Badges and Soft Highlights in Dark */
+.dark .bg-emerald-50,
+.dark .bg-emerald-50\/20,
+.dark .bg-emerald-50\/30,
+.dark .bg-emerald-50\/50 {
+  background-color: rgba(6, 78, 59, 0.25) !important;
+}
+
+.dark .text-emerald-700,
+.dark .text-emerald-800 {
+  color: #34d399 !important;
+}
+
+.dark .border-emerald-200 {
+  border-color: rgba(5, 150, 105, 0.3) !important;
+}
+
+.dark .bg-rose-50,
+.dark .bg-rose-50\/50 {
+  background-color: rgba(136, 19, 55, 0.25) !important;
+}
+
+.dark .text-rose-700,
+.dark .text-rose-600 {
+  color: #fb7185 !important;
+}
+
+.dark .border-rose-200 {
+  border-color: rgba(225, 29, 72, 0.3) !important;
+}
+
+.dark .bg-indigo-50,
+.dark .bg-indigo-50\/50 {
+  background-color: rgba(49, 46, 129, 0.3) !important;
+}
+
+.dark .text-indigo-700,
+.dark .text-indigo-900 {
+  color: #a5b4fc !important;
+}
+
+.dark .border-indigo-200 {
+  border-color: rgba(99, 102, 241, 0.3) !important;
+}
+
+.dark .bg-amber-50,
+.dark .bg-amber-50\/70 {
+  background-color: rgba(120, 53, 15, 0.25) !important;
+}
+
+.dark .text-amber-700,
+.dark .text-amber-800,
+.dark .text-amber-900 {
+  color: #fcd34d !important;
+}
+
+.dark .border-amber-200 {
+  border-color: rgba(217, 119, 6, 0.3) !important;
+}
+
+.dark .bg-violet-50 {
+  background-color: rgba(76, 29, 149, 0.3) !important;
+}
+
+.dark .text-violet-700 {
+  color: #c4b5fd !important;
+}
+
+.dark .border-violet-200 {
+  border-color: rgba(139, 92, 246, 0.3) !important;
+}
+
+/* ==========================================================================
+   MIDNIGHT NAVY THEME (Bloomberg Terminal Quant Pro)
+   ========================================================================== */
+.theme-navy body,
+.theme-navy #root {
+  background-color: #040813 !important;
+  color: #f0f6fc !important;
+}
+
+.theme-navy #main-header {
+  background-color: #070e1c !important;
+  border-color: #142036 !important;
+}
+
+.theme-navy .bg-white {
+  background-color: #0a1324 !important;
+}
+
+.theme-navy .bg-slate-50 {
+  background-color: #060c18 !important;
+}
+
+.theme-navy .bg-slate-100 {
+  background-color: #0f1c33 !important;
+}
+
+.theme-navy .border-slate-200,
+.theme-navy .border-slate-200\/80,
+.theme-navy .border-slate-100 {
+  border-color: #172744 !important;
+}
+
+.theme-navy .hover\:bg-slate-50:hover,
+.theme-navy .hover\:bg-slate-50\/80:hover {
+  background-color: rgba(19, 36, 68, 0.5) !important;
+}
+
+.theme-navy input[type="text"],
+.theme-navy input[type="number"],
+.theme-navy input[type="search"],
+.theme-navy select,
+.theme-navy textarea {
+  background-color: #081120 !important;
+  color: #f0f6fc !important;
+  border-color: #1c3053 !important;
+}
